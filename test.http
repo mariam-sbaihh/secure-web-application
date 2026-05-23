@@ -1,0 +1,35 @@
+### =========================
+### Register User
+### =========================
+
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "test2",
+  "email": "test2@test.com",
+  "password": "123456",
+  "secretNote": "hello secret"
+}
+
+### =========================
+### Login User
+### =========================
+
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "test2@test.com",
+  "password": "123456"
+}
+
+### =========================
+### Protected Profile Route
+### =========================
+
+GET http://localhost:3000/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMGIyYWYxYzQxNzU0NTQxYWRhMzFjOSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3OTU0Mzk5OCwiZXhwIjoxNzc5NTQ3NTk4fQ.CadXzIuWS4wMB8qBlm_puW2O-N_vKkmhIx5582Q4B7g
+
+GET http://localhost:3000/admin
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMGIyYWYxYzQxNzU0NTQxYWRhMzFjOSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3OTU0Mzk5OCwiZXhwIjoxNzc5NTQ3NTk4fQ.CadXzIuWS4wMB8qBlm_puW2O-N_vKkmhIx5582Q4B7g
