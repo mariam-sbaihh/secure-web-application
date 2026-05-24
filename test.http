@@ -29,7 +29,7 @@ Content-Type: application/json
 ### =========================
 
 GET http://localhost:3000/profile
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMGIyYWYxYzQxNzU0NTQxYWRhMzFjOSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3OTU0Mzk5OCwiZXhwIjoxNzc5NTQ3NTk4fQ.CadXzIuWS4wMB8qBlm_puW2O-N_vKkmhIx5582Q4B7g
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMGIyYWYxYzQxNzU0NTQxYWRhMzFjOSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3OTU0NjU1MiwiZXhwIjoxNzc5NTUwMTUyfQ.IAQXqIfh5RsI2QR_k31MgZfPJov9b1RNgHC9sohG0rM
+###
 GET http://localhost:3000/admin
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMGIyYWYxYzQxNzU0NTQxYWRhMzFjOSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3OTU0Mzk5OCwiZXhwIjoxNzc5NTQ3NTk4fQ.CadXzIuWS4wMB8qBlm_puW2O-N_vKkmhIx5582Q4B7g
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMGIyYWYxYzQxNzU0NTQxYWRhMzFjOSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3OTU0NjU1MiwiZXhwIjoxNzc5NTUwMTUyfQ.IAQXqIfh5RsI2QR_k31MgZfPJov9b1RNgHC9sohG0rM
